@@ -14,5 +14,7 @@ Taller checks
   <module name="TreeWalker">
     <module name="MissingJavadocMethod"/>
     <module name="Indentation"/>
+    <module name="SuppressionCommentFilter"/>
+    
   </module>
 </module>
