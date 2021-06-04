@@ -13,8 +13,7 @@ Taller checks
   <property name="severity" value="warning"/>
   <module name="TreeWalker">
     <module name="MissingJavadocMethod"/>
-    <module name="Indentation"/>
-    <module name="SuppressionCommentFilter"/>
+    <module name="Indentation"/> 
     
   </module>
 </module>

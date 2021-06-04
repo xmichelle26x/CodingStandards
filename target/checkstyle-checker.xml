@@ -24,11 +24,25 @@
 			<property name="authorFormat" value="\S" />
 		</module>
 		
+		
 		<module name="SuppressionCommentFilter">
 			<property name="offCommentFormat" value="CHECKSTYLE.OFF\: ([\w\|]+)"/>
     		<property name="onCommentFormat" value="CHECKSTYLE.ON\: ([\w\|]+)"/>
     		<property name="checkFormat" value="$1"/>
 		</module>
+		
+		
+		
+		<module name="JavadocMethod"/>
+		
+		<module name="MethodName">
+		   <property name="format" value="^[a-z](_?[a-zA-Z0-9]+)*$"/>
+		</module>
+		
+		<module name="WhitespaceAfter">
+		  <property name="tokens" value="COMMA, SEMI"/>
+		</module>
+		        
 		
 	</module>
 	

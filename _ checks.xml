@@ -24,6 +24,7 @@
 			<property name="authorFormat" value="\S" />
 		</module>
 		
+		
 		<module name="SuppressionCommentFilter">
 			<property name="offCommentFormat" value="CHECKSTYLE.OFF\: ([\w\|]+)"/>
     		<property name="onCommentFormat" value="CHECKSTYLE.ON\: ([\w\|]+)"/>
